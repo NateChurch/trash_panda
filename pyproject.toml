@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "trash-panda"
+version = "0.1.0"
+description = "Inventory Databases"
+authors = ["Nathan Church <nathan_church@murphyoilcorp.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pandas = "^2.2.3"
+python-dotenv = "^1.0.1"
+pyodbc = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
